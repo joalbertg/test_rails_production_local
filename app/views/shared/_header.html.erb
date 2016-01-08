@@ -1,0 +1,20 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to "sample app", { :controller => 'static_pages', :action => 'home'}, id: "logo" %>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <nav>
+          <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to "Help",  {:controller => 'static_pages', :action => 'help'}, :class => 'headers-links' %></li>
+          </ul>
+      </nav>
+    </div>
+  </div>
+</header>
