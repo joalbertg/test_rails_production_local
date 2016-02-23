@@ -1,6 +1,6 @@
-# Dksh-Rails-Base
+# Dqs-Rails-Base
 
-> **Note:** This repository contains the core code of Dksh-Rails-Base
+> **Note:** This repository contains the core code of Dqs-Rails-Base
 
 ## How to use
 
@@ -8,7 +8,7 @@ Make sure you have Ruby and Rails installed onto your machine, if you do not hav
 
 After install the Ruby and Rails needs to clone the repository
 ```
-git clone https://github.com/douglas-dksh/dksh-rails-base.git
+git clone https://github.com/douglasqsantos/dqs-rails-base.git
 ```
 After that access the new directory and run
 ```
