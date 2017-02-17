@@ -12,7 +12,7 @@ default: &default
 
 development:
   <<: *default
-  database: truckbu_development
+  database: deploy_development
 
 production:
   <<: *default

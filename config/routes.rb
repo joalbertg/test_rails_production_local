@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
 
   resources :posts
-  root "static_pages#home"
+  root "posts#index"
+  #root "static_pages#home"
   get 'about', :to => "static_pages#about"
   get 'contact', :to => "static_pages#contact"
   get 'help', :to => "static_pages#help"
