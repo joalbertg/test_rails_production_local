@@ -8,4 +8,5 @@ production:
   port: 5432
   pool: 5
   username: deploy
-  database: deploy_password
+  password: deploy_password
+  database: deploy_production
